@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <script>
+  $(function() {
+    //$( "#datepicker" ).datepicker();
+  });
+  </script>
+ <!-- jQuery CDN link....  
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	 -->
+		<meta charset="UTF-8">	
+		<title>HTML5: Week One</title>  
+		<!-- link to an external style sheet (best practice with style sheet)-->
+		<link href="css/styles.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body class="page"><!-- everything that is visual goes in the body tag  -->
+		<header>
+			<!-- the "banner" area or title of the page-->
+			<h1>HTML5: Week One</h1> <!-- only h1 per page (for SEO purposes) --> 	
+		</header>
+		<nav class="nav1"> 
+			<ul>
+				<!-- these links are relative paths -->
+				<li> <a href="#">home</a></li>
+				<li> <a href="#">gallery</a></li>
+				<li> <a href="sign-up.html">Sign Up Here</a></li>
+				<li> <a href="#">Mobile Site</a></li>
+				<li> <a href="http://www.google.com">Google</a></li>
+			</ul>
+		</nav>
+		<div id="mainContent">
+            <h3>If you want to connect with the community and post content, please create an account.</h3>
+			<!-- A Simple Form    -->
+	     <form id="sign-up-form" method="post" action="#">
+           <fieldset>
+              <h2>Sign up to receive periodic newsletters and updates</h2>
+              <ul>
+                <li>
+                  <label for="name-label">Full Name</label>
+                  <input type="text" name="full-name" id="name-label" placeholder="Full Name" required autofocus />
+                </li>
+                <li>
+                  <label>Email Address</label>
+                  <input type="email" name="email" required />
+                </li>
+                <li>
+                  <label>Home Address</label>
+                  <input type="text" name="home-address" id="address-line-1" placeholder="Address Line 1" required />
+                  <input type="text" name="home-address" id="address-line-2" placeholder="Address Line 2 (optional)" />
+                </li>
+                <li>
+                  <label>City</label>
+                  <input type="text" name="city-name" id="city" placeholder="City" required />
+                </li>
+                <li>
+                  <label>State</label>
+                  <select name="state" >
+                    <option value="Alabama">Alabama</option>
+                    <option value="Alaska">Alaska</option>
+                    <option value="Arizona">Arizona</option>
+                    <option value="Arkansas">Arkansas</option>
+                    <option value="California">California</option>
+                    <option value="Colorado">Colorado</option>                    
+                    <option value="Connecticut">Connecticut</option>
+                    <option value="Delaware">Delaware</option>
+                    <option value="Florida">Florida</option>
+                    <option value="Georgia">Georgia</option>
+                    <option value="Hawaii">Hawaii</option>    
+                    <option value="Idaho">Idaho</option>  
+                    <option value="Illinois">Illinois</option>  
+                    <option value="Indiana">Indiana</option>  
+                    <option value="Iowa">Iowa</option>  
+                    <option value="Kentucky">Kansas</option>  
+                    <option value="Louisiana">Louisiana</option>  
+                    <option value="Maine">Maine</option>  
+                    <option value="Maryland">Maryland</option>  
+                    <option value="Massachusetts">Massachusetts</option>  
+                    <option value="Michigan">Michigan</option>  
+                    <option value="Minnesota">Minnesota</option>  
+                    <option value="Mississippi">Mississippi</option>  
+                    <option value="Missouri">Missouri</option>  
+                    <option value="Missouri">Montana</option>  
+                    <option value="Nebraska">Nebraska</option>  
+                    <option value="Nevada">Nevada</option>  
+                    <option value="New Hampshire">New Hampshire</option>  
+                    <option value="New Jersey">New Jersey</option>  
+                    <option value="New Mexico">New Mexico</option>  
+                    <option value="New York">New York</option>  
+                    <option value="North Carolina">North Carolina</option>  
+                    <option value="North Dakota">North Dakota</option>  
+                    <option value="Ohio">Ohio</option>  
+                    <option value="Oklahoma">Oklahoma</option>  
+                    <option value="Oregon">Oregon</option>  
+                    <option value="Pennsylvania">Pennsylvania</option>  
+                    <option value="Rhode Island">Rhode Island</option>  
+                    <option value="South Carolina">South Carolina</option>  
+                    <option value="South Dakota">South Dakota</option>  
+                    <option value="Tennessee">Tennessee</option>  
+                    <option value="Texas">Texas</option>  
+                    <option value="Utah">Utah</option>  
+                    <option value="Vermont">Vermont</option>  
+                    <option value="Virginia">Virginia</option>  
+                    <option value="Washington">Washington</option>  
+                    <option value="West Virginia">West Virginia</option>  
+                    <option value="Wisconsin">Wisconsin</option>  
+                    <option value="Wyoming">Wyoming</option>  
+                  </select>
+                </li>
+                 <li>
+                  <label>Zip Code</label>
+                  <input type="number" placeholder="98003" pattern="^[0-9]{5}"  required />
+                </li>
+                <li>
+                  <label>I want to receive:</label><br>
+                  <input type="checkbox" name="org-updates" value="organization-updates" />Email updates about the organization <br>
+                  <input type="checkbox" name="specials" value="special offers" />Special offers and event discounts <br>
+                  <input type="checkbox" name="newsetter" value="newsletter" />Quarterly newsletter <br>
+                </li>
+                <li>
+                  <label>On a scale of 1 - 10, how would you rate your experience with this site today?</label>
+                  <input type="number" value="0" min="1" max="10" placeholder="0" />
+                </li>
+               
+             </ul>
+             <input type="submit" value="Sign Up" name="submit" />
+           </fieldset>
+              
+          
+         </form>	
+        n 
+            	
+
+        </div><!-- closing maincContent div tag -->
+		
+		
+        <!--  This is the footer section, only footer stuff -->
+		<footer>
+			<p>&copy; copyright 2015</p>
+			
+		</footer>
+
+	</body>
+</html>
